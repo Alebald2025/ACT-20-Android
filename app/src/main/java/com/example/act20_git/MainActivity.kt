@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                 simularDescarrega()
             }
 
-            // Actualizar UI en el hilo principal (ya estamos en Dispatchers.Main)
+            // Actualizar UI en el hilo principal
             tvEstat.text = resultado
             btnDescarregar.isEnabled = true
         }
